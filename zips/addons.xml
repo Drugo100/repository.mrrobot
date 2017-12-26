@@ -19,7 +19,59 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.mrrobot1.0" name="Mr Robot.1.0" version="0.0.1" provider-name="Me">
+<addon id="plugin.video.mr robot"
+       name="[COLOR lime]Mr Robot[/COLOR]"
+       version="0.1"
+       provider-name="Robot">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.1"/>
+    <import addon="script.module.simple.downloader" version="0.9.4"/>
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
+    <import addon="script.module.youtube.dl" optional="true"/>
+    <import addon="plugin.video.youtube" optional="true" />
+    <import addon="script.module.urlresolver" optional="true"/>
+    <import addon="script.module.simplejson" />
+     <import addon="script.module.livestreamer" optional="true"/>
+     <import addon="script.module.pyamf" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Mr Robot</summary>
+
+<description>Addon Mr Robot by Andrea !!!</description>
+        <news>v1.0.9
+- Bug fix Server
+v.1.0.7
+-Aggiunto anti-sniff
+v.1.0.6
+-Bug fix
+v.1.0.5
+-Aggiornamento sicurezza
+v1.0.4
+-Aggiornamento generale add-on
+v1.0.1
+-Aggiunta della funzione aggiungi lista personale
+v1.0.0
+-Nascita dell'add-on!
+</news>
+    <platform>all</platform>
+	<license></license>
+	<website></website>
+	<email></email>
+	<disclaimer></disclaimer>
+	<language>it</language>
+  </extension>
+</addon>
+
+<addon id="plugin.video.mrrobot1.0" name="Mr Robot.1.0" version="0.0.2" provider-name="Me">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.python.koding.aio" version="0.0.1"/>
