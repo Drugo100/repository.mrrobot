@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.megasearch" name="Mega Search" version="2.46.0" provider-name="Pipcan">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.urlresolver"  version="2.1.2"/>
+	<import addon="script.module.addon.common" />
+	<import addon="script.module.requests" />
+	<import addon="script.module.mechanize" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Think Of Mash-Up+Zeus Video X 1000</summary>
+    <description lang="en">Search Any Site For Streams Movies And So You Dont Waste Time Clicking On Dead Links Your Can Run The Stream Tester And Will Quickley Sort Out The Broken From The Working Can Do This On Any Page Can Even Test Own M3U</description>
+	<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.mrrobot1.0" name="Mr Robot.1.0" version="0.0.1" provider-name="Me">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+        <import addon="script.module.python.koding.aio" version="0.0.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Quick one liner about the add-on</summary>
+		<description lang="en">Full add-on description.</description>
+		<platform>all</platform>
+		<forum>http://www.noobsandnerds.com/support</forum>
+		<website>www.noobsandnerds.com</website>
+		<news></news>
+		<genre>italian</genre>
+		<video_guide></video_guide>
+		<video_preview></video_preview>
+	</extension>
+</addon>
+
+<addon id="repository.mrrobot" name="Mr Robot Repo" version="0.0.1" provider-name="Andrea">
+	<extension point="xbmc.addon.repository" name="Mr Robot Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/Drugo100/repository.mrrobot/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Drugo100/repository.mrrobot/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Drugo100/repository.mrrobot/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">the repository by Andrea</summary>
+		<description lang="en">Full repository description</description>
+		<genre>italian</genre>
+	</extension>
+</addon>
+</addons>

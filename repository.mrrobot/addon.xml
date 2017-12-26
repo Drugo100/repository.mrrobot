@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.mrrobot" name="Mr Robot Repo" version="0.0.1" provider-name="Andrea">
+	<extension point="xbmc.addon.repository" name="Mr Robot Repo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/Drugo100/repository.mrrobot/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Drugo100/repository.mrrobot/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Drugo100/repository.mrrobot/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">the repository by Andrea</summary>
+		<description lang="en">Full repository description</description>
+		<genre>italian</genre>
+	</extension>
+</addon>

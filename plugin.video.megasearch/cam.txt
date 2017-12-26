@@ -1,0 +1,6 @@
+#EXTINF:-1,C: cloudcccam.zapto.org 12000 cloud365 4777777 # v2.0.11-2892 
+d
+#EXTINF:-1,C: ammoune2.no-ip.biz 13000 abonnement19 1ac999m # v2.0.11-2892 
+d
+C: freesatdz12-sat.myftp.biz 13000 cbd8vn freesatdz # v2.0.11-2892 
+d
