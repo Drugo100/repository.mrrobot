@@ -19,7 +19,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.mrrobot1.0" name="Mr Robot.1.0" version="0.0.1" provider-name="Me">
+<addon id="plugin.video.mrrobot1.0" name="Mr Robot.1.0" version="0.0.3" provider-name="Me">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.python.koding.aio" version="0.0.1"/>
